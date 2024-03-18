@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.headingTwo{
+  @apply text-white sm:text-base  font-sans font-bold mb-4
+}
+.anchorTag{
+  @apply text-white text-base  font-sans no-underline block transition-all duration-300 ease-in-out leading-5 text-ellipsis 
+}
+
+.mainFooter{
+  background-color: #e453a2;
+}
+.bg-image{
+  background-image: url('.././src/assets/wallpaperflare.com_wallpaper\ \(16\).jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0rem;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.bg-image-about{
+  background-image: url('.././src/assets/7.webp');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0rem;
+  height: 80vh;
+  background-attachment: fixed;
+}
+.bg-image-1 {
+  background-image: url(".././src/assets/exploring-africa-cultue.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 0rem;
+  left: 0;
+  right: 0;
+  bottom: 0rem;
+  z-index: -1;
+  background-attachment: fixed;
+  
+}
+.userLogin{
+  background-image: url('.././src/assets/africulture.webp');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+}
+
+
+
+.afriContainer{
+  position: fixed;
+  z-index: 1;
+  animation-name: modal;
+  animation-duration: 2s;
+}
+
+@keyframes modal {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+
+@keyframes modal{
+  0%{
+      left:100% ;
+  }
+  100%{
+      left:0;
+
+  }
+}
+
